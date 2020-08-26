@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #23232a;
+  height: 70px;
+  
+  
+
+  a {
+    color: gray;
+    font-size: 18px;
+    
+  }
+  strong, p{
+      color: gray;
+      margin-top: 10px;
+  }
+}
+#navbarSupportedContent {
+  justify-content: flex-end;
+  .nav-link {
+    color: gray;
+    font-family: Lato sans-serif 300;
+    text-transform: uppercase;
+  }
+}

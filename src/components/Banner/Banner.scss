@@ -1,0 +1,41 @@
+.containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  font-family: Lato sans-serif 300;
+  padding: 30px;
+  margin-top: 150px;
+  width: 450px;
+  height: 500px;
+  background-color: #23232aad;
+  img{
+    max-width: 350px;
+    margin: auto;
+  }
+  .card-body{
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .card-title{
+    font-size: 25px;
+  }
+  .btn-contact {
+    background-color: transparent;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    color: white;
+    height: 60px;
+    font-size: 20px;
+    &:hover{
+      background-color: white;
+    }
+  }
+}
