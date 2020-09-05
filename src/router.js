@@ -1,33 +1,20 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
+import Home from "../src/App"
+import Cozinha from "./pages/Cozinha";
 
-<Router>
-  <div>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contato</Link>
-        </li>
-        <li>
-          <Link to="/users">Users</Link>
-        </li>
-      </ul>
-    </nav>
+export class Routes extends Component {
+  render() {
+    return (
+      
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/cozinha" component={Cozinha} />
+         
+        </Switch>
+     
+    );
+  }
+}
 
-    {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-    <Switch>
-      <Route path="/about">
-        <About />
-      </Route>
-      <Route path="/users">
-        <Users />
-      </Route>
-      <Route path="/">
-        <Home />
-      </Route>
-    </Switch>
-  </div>
-</Router>;
+export default Routes;
