@@ -1,6 +1,10 @@
 .navbar {
   background-color: #23232a;
   height: 70px;
+  z-index: 7;
+  .navbar-toggler-icon{
+    background-color: white;
+  }
   
   
 

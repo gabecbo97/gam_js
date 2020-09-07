@@ -1,5 +1,7 @@
 import React from "react";
 import "./Help.scss";
+import {Link}  from "react-router-dom"
+
 
 export default function Help() {
   return (
@@ -11,8 +13,9 @@ export default function Help() {
         <h2 className="help-body">Como podemos ajudar ?</h2>
         <p className="help-descripton">Peça seu orçamento gratís sem compromisso</p>
         <div class="row help">
-          <button className="btn-help text-center a">WhatsApp</button>
-          <button className="btn-help text-center b" >Quero um orçamento</button>
+          <a href="https://api.whatsapp.com/send?phone=551159217548"><button className="btn-help text-center a">WhatsApp</button></a>
+          <Link><button className="btn-help text-center b" >Quero um orçamento</button></Link>
+          
         </div>
       </div>
     </div>
