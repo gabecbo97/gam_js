@@ -1,15 +1,14 @@
 import React from "react";
 import Layout from "../Layout/Default/index";
 import Gallery from "../components/Gallery/Gallery";
-import image1 from "../assets/portfolio/sala/image1.jpg";
-import image2 from "../assets/portfolio/sala/image2.jpg";
-import image3 from "../assets/portfolio/sala/image3.jpg";
-import image4 from "../assets/portfolio/sala/image4.jpg";
-import image5 from "../assets/portfolio/sala/image5.jpg";
-import image6 from "../assets/portfolio/sala/image6.jpg";
+import image1 from "../assets/portfolio/escritorio/image1.jpg";
+import image2 from "../assets/portfolio/escritorio/image2.jpg";
+import image3 from "../assets/portfolio/escritorio/image3.jpg";
+import image4 from "../assets/portfolio/escritorio/image4.jpg";
+import image5 from "../assets/portfolio/escritorio/image5.jpg";
+import image6 from "../assets/portfolio/escritorio/image6.jpg";
 import icon from "../assets/icons/camera.png";
-
-export default function Sala() {
+export default function Escritorio() {
   return (
     <Layout>
       <div className="container">
@@ -17,8 +16,8 @@ export default function Sala() {
           <p className="text-center">
             <img src={icon} alt="" width="50" />
           </p>
-          <h2>SALA</h2>
-          <p>Design e inovação</p>
+          <h2>ESCRITÓRIO</h2>
+          <p>Repense sua forma de trabalhar e organizar seu trabalho</p>
         </div>
         <br />
         <div class="row">

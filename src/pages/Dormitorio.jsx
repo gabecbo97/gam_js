@@ -1,15 +1,13 @@
 import React from "react";
 import Layout from "../Layout/Default/index";
 import Gallery from "../components/Gallery/Gallery";
-import image1 from "../assets/portfolio/sala/image1.jpg";
-import image2 from "../assets/portfolio/sala/image2.jpg";
-import image3 from "../assets/portfolio/sala/image3.jpg";
-import image4 from "../assets/portfolio/sala/image4.jpg";
-import image5 from "../assets/portfolio/sala/image5.jpg";
-import image6 from "../assets/portfolio/sala/image6.jpg";
+import image1 from "../assets/portfolio/dormitorio/image1.jpg";
+import image2 from "../assets/portfolio/dormitorio/image2.jpg";
+import image3 from "../assets/portfolio/dormitorio/image3.jpg";
+import image4 from "../assets/portfolio/dormitorio/image4.jpg";
 import icon from "../assets/icons/camera.png";
 
-export default function Sala() {
+export default function Dormitorio() {
   return (
     <Layout>
       <div className="container">
@@ -17,10 +15,12 @@ export default function Sala() {
           <p className="text-center">
             <img src={icon} alt="" width="50" />
           </p>
-          <h2>SALA</h2>
-          <p>Design e inovação</p>
+          <h2>DORMITÓRIO</h2>
+          <p>
+            Para casal, solteiro e crianças, tudo com inovação e design
+          </p>
         </div>
-        <br />
+
         <div class="row">
           <div class="col-lg">
             <Gallery image={image1} link={image1} />
@@ -36,12 +36,8 @@ export default function Sala() {
           <div class="col-lg">
             <Gallery image={image4} link={image4} />
           </div>
-          <div class="col-lg">
-            <Gallery image={image5} link={image5} />
-          </div>
-          <div class="col-lg">
-            <Gallery image={image6} link={image6} />
-          </div>
+          <div class="col-lg"></div>
+          <div class="col-lg"></div>
         </div>
       </div>
     </Layout>
