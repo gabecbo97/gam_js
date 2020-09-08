@@ -1,25 +1,37 @@
 .navbar {
   background-color: #23232a;
-  height: 70px;
+  height: auto;
   z-index: 7;
-  .navbar-toggler-icon{
+  .navbar-toggler-icon {
     background-color: white;
   }
-  
-  
-
   a {
     color: gray;
     font-size: 18px;
-    
   }
-  strong, p{
-      color: gray;
-      margin-top: 10px;
+  strong,
+  p {
+    color: gray;
+    margin-top: 10px;
   }
 }
 #navbarSupportedContent {
   justify-content: flex-end;
+  .dropdown-menu {
+    margin-top: 15px;
+    border-radius: none;
+  }
+
+  .dropdown-item {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+
+    &:hover {
+      background-color: #82d3c9;
+      color: white;
+    }
+  }
   .nav-link {
     color: gray;
     font-family: Lato sans-serif 300;

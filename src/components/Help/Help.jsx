@@ -14,7 +14,7 @@ export default function Help() {
         <p className="help-descripton">Peça seu orçamento gratís sem compromisso</p>
         <div class="row help">
           <a href="https://api.whatsapp.com/send?phone=551159217548"><button className="btn-help text-center a">WhatsApp</button></a>
-          <Link><button className="btn-help text-center b" >Quero um orçamento</button></Link>
+          <Link to="/contato"><button className="btn-help text-center b" >Quero um orçamento</button></Link>
           
         </div>
       </div>

@@ -1,11 +1,12 @@
 import React from "react";
 import "../Navbar/Navbar.scss";
 import { Link } from "react-router-dom";
+import menu from "../../assets/icons/menu.svg"
 
 export default function Nav() {
   return (
     <div>
-      <nav className="navbar navbar-expand-md">
+      <nav className="navbar navbar-expand-md fixed-top">
         <Link className="navbar-brand" to="/">
           <p>
             <strong>G.A.M </strong> MARCENARIA
@@ -20,7 +21,7 @@ export default function Nav() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span ><img src={menu} alt="" width="35px"/></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,21 +39,29 @@ export default function Nav() {
                 Protfólio
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  Action
+              <a className="dropdown-item" href="#">
+                  Sala de estar
                 </a>
                 <a className="dropdown-item" href="#">
-                  Another action
+                  Banheiro
                 </a>
-                <div className="dropdown-divider"></div>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  Cozinha
+                </a>
+                <a className="dropdown-item" href="#">
+                  Decoração
+                </a>
+                <a className="dropdown-item" href="#">
+                  Dormitório
+                </a>
+                <a className="dropdown-item" href="#">
+                  Escritório
                 </a>
               </div>
             </li>
             <li className="nav-item active">
-              <Link className="nav-link" to="/cozinha">
-                Contato <span className="sr-only">(current)</span>
+              <Link className="nav-link" to="/contato">
+                Contato <span className="sr-only"></span>
               </Link>
             </li>
           </ul>
