@@ -27,7 +27,7 @@ export default function Nav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ">
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdown"
@@ -37,26 +37,26 @@ export default function Nav() {
                 aria-expanded="false"
               >
                 Protfólio
-              </a>
+              </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">
+              <Link to="/sala" className="dropdown-item" href="#">
                   Sala de estar
-                </a>
-                <a className="dropdown-item" href="#">
+                </Link>
+                <Link to="/banheiro" className="dropdown-item" href="#">
                   Banheiro
-                </a>
-                <a className="dropdown-item" href="#">
+                </Link>
+                <Link to="/cozinha" className="dropdown-item" href="#">
                   Cozinha
-                </a>
-                <a className="dropdown-item" href="#">
+                </Link>
+                <Link to="/decoracao" className="dropdown-item" href="#">
                   Decoração
-                </a>
-                <a className="dropdown-item" href="#">
+                </Link>
+                <Link to="/dormitorio" className="dropdown-item" href="#">
                   Dormitório
-                </a>
-                <a className="dropdown-item" href="#">
+                </Link>
+                <Link to="/escritorio" className="dropdown-item" href="#">
                   Escritório
-                </a>
+                </Link>
               </div>
             </li>
             <li className="nav-item active">

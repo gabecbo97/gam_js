@@ -5,7 +5,7 @@ import logo from "../../assets/img/logo.png";
 export default function Banner() {
   return (
     <div className="container containers">
-      <div className="cards text-center">
+      <div className="cards">
         <img className="card-img-top" src={logo} alt="Card image cap" />
         <div className="card-body">
           <h5 className="card-title">

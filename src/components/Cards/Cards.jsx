@@ -16,12 +16,12 @@ export default function Cards() {
         planejamento, á execução.
       </p>
       <div className="row">
-        <div className="col-sm">
+        <div className="col-md">
           <div class="card-partner text-center">
-            <img class="card-img-top" src={caoa} alt="Card image cap" />
+            <img class="card-img-top img-fluid" src={caoa} alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">HYUNDAI - CAOA</h5>
-              <p class="card-text ">
+              <p class="card-text mb-5 ">
                 CAOA é a maior distribuidora de grander fabricantes automotivas
                 do mundo, como a Ford e Hyundai..
               </p>
@@ -31,27 +31,27 @@ export default function Cards() {
             </div>
           </div>
         </div>
-        <div className="col-sm">
+        <div className="col-md">
           <div class="card-partner text-center">
-            <img class="card-img-top" src={ballon} alt="Card image cap" />
+            <img class="card-img-top img-fluid" src={ballon} alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">RED BALLON</h5>
-              <p class="card-text">
+              <p class="card-text mb-5">
                 Red Balloon é parte do grupo SOMOS Educação e continua
                 oferecendo o melhor inglês para crianças e adolescentes.
               </p>
-              <a href="#" class="btn btn-button">
+              <a href="#" class="btn btn-button ">
                 SAIBA MAIS
               </a>
             </div>
           </div>
         </div>
-        <div className="col-sm">
+        <div className="col-md">
           <div class="card-partner text-center">
-            <img class="card-img-top" src={fph} alt="Card image cap" />
+            <img class="card-img-top img-fluid" src={fph} alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">FEDERAÇÃO PAULISTA DE HIPISMO</h5>
-              <p class="card-text">
+              <p class="card-text mb-5">
                 A FPH é responsável pela regulamentação, coordenação e fomento
                 de 8 modalidades de Esportes Hípicos praticados no País.
               </p>

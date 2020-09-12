@@ -13,7 +13,7 @@ export default function Section() {
     <div className="container-fluid section mb-5" style={{ width: "80%" }}>
       <div className="row">
         <div className="col-md">
-          <Link to="/sala">
+          <Link className="links-default" to="/sala">
             <div className="card_section text-center">
               <img src={sala} class="card-img " alt="..." />
               <div className="card-body">
@@ -22,7 +22,7 @@ export default function Section() {
             </div>
           </Link>
         </div>
-        <Link to="/cozinha">
+        <Link className="links-default" to="/cozinha">
           <div className="col-md">
             <div className="card_section text-center">
               <img src={cozinha} class="card-img" alt="..." />
@@ -34,7 +34,7 @@ export default function Section() {
         </Link>
       </div>
       <div className="row">
-        <Link to="/dormitorio">
+        <Link className="links-default" to="/dormitorio">
           <div className="col-md">
             <div className="card_section text-center">
               <img src={dormitorio} class="card-img" alt="..." />
@@ -44,7 +44,7 @@ export default function Section() {
             </div>
           </div>
         </Link>
-        <Link to="/escritorio">
+        <Link className="links-default" to="/escritorio">
           <div className="col-md">
             <div className="card_section text-center">
               <img src={escritorio} class="card-img" alt="..." />
@@ -56,7 +56,7 @@ export default function Section() {
         </Link>
       </div>
       <div className="row">
-        <Link to="/decoracao">
+        <Link className="links-default" to="/decoracao">
           <div className="col-md">
             <div className="card_section text-center">
               <img src={decoracao} class="card-img" alt="..." />
@@ -66,7 +66,7 @@ export default function Section() {
             </div>
           </div>
         </Link>
-        <Link to="/banheiro">
+        <Link className="links-default" to="/banheiro">
           <div className="col-md">
             <div className="card_section text-center">
               <img src={banheiro} class="card-img" alt="..." />

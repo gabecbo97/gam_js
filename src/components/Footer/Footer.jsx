@@ -5,11 +5,16 @@ import instagram from "../../assets/icons/instagram.svg";
 
 export default function Footer() {
   return (
-    <footer className="py-4 footer">
-      <div className="container text-center">
+    <footer className="footer">
+      <div className="container ">
         <div className="col">
-          <img src={facebook} alt="" />
-          <img src={instagram} alt="" />
+          <a target="_blank" href="https://www.facebook.com/geraldoartemoveis">
+            <img src={facebook} alt="" />
+          </a>
+
+          <a target="_blank" href="https://www.instagram.com/gammarcenaria/">
+            <img src={instagram} alt="" />
+          </a>
           <br />
           <p>&copy; G.A.M 2020</p>
         </div>
