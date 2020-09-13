@@ -19,7 +19,7 @@ export default function Contato() {
             <div class="row">
               <div class="col">
                 <input
-                  type="email"
+                  type="e-mail"
                   placeholder="Nome"
                   class="form-control"
                   id="Nome"
